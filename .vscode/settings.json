@@ -1,0 +1,22 @@
+{
+  "solidity.packageDefaultDependenciesContractsDirectory": "",
+  "solidity.packageDefaultDependenciesDirectory": "contracts/Library",
+  "solidity.linter": "solhint",
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": ["javascript", { "language": "typescript", "autoFix": true }],
+  "workbench.colorCustomizations": {},
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true
+  },
+  "[solidity]": {
+    "editor.formatOnSave": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}
